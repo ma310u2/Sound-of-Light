@@ -1,1 +1,46 @@
-﻿
+*{
+    padding:0;
+    margin:0;
+}
+header{
+        background-color:black;
+        color:white;
+}
+.title-log{
+    max-width:1040px;
+    margin:0 auto;
+    padding:5px 20px;
+    loat:left;
+    font-size:35px;
+    text-shadow: 0px 0px 10px #ddffff,
+    0px 0px 20px #ddffff,
+    0px 0px 30px #ddffff,
+    0px 0px 40px #ddffff,
+    0px 0px 50px #ddffff,
+    0px 0px 60px #ddffff;
+}
+ul,a{
+    list-style:none;
+    text-decoration:none;
+}
+
+#list-top ul{
+    padding-left:0px;
+    max-width:1040px;
+    margin:0 auto;
+}
+#list-top >ul{
+    display:flex;
+    
+}
+#list-top li{
+    width:20%;
+    text-align:center;
+    padding:20px 0;
+}
+
+#sub-list li{
+    width:100%;
+    display:none;
+   
+}
