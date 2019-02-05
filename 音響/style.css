@@ -3,6 +3,7 @@
     margin:0;
 }
 body{
+  font-size:18px;
 
 }
 #header-bar{
@@ -107,7 +108,7 @@ a:hover:after {
 }
 #main{
   max-width:1040px;
-  margin:0 auto;
+  margin: 0px auto;
 }
 .top-page{
     position:relative;
@@ -128,4 +129,20 @@ a:hover:after {
     margin: 0 auto;
     padding-left: 25px;
     letter-spacing:3px;
+}
+#concept p{
+  padding:25px 0 0 20px;
+  letter-spacing: 1px;
+}
+#service{
+  padding:100px 0 0 20px;
+}
+#service {
+  display:flex; 
+}
+#service h2{
+  
+}
+#service section{
+  width:33%;
 }
