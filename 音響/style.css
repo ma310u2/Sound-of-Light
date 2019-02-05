@@ -58,16 +58,16 @@ ul,a{
     position: relative;
     z-index:1;
 }
-a,
-a::after {
+#list-top a,
+#list-top a::after {
   -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
     transition: all 0.3s;
 }
 
-a::before,
-a::after {
+#list-top a::before,
+#list-top a::after {
   box-shadow:0 0 10px #ddffff,
    0 0 20px #ddffff, 
    0 0 30px #ddffff,
@@ -80,18 +80,18 @@ a::after {
   z-index:-1 ;
 }
 
-a:hover {
+#list-top a:hover {
   text-shadow: 1px 2px 3px black;
 }
-
-a::after {
+ 
+#list-top a::after {
   height: 0;
   left: 50%;
   top: 50%;
   width: 0;
 }
 
-a:hover:after {
+#list-top a:hover:after {
   height: 100%;
   left: 0;
   top: 0;
@@ -129,6 +129,7 @@ a:hover:after {
     margin: 0 auto;
     padding-left: 25px;
     letter-spacing:3px;
+    text-shadow: 1px 2px 3px black;
 }
 #concept p{
   padding:25px 0 0 20px;
