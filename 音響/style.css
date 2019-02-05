@@ -137,12 +137,13 @@ a:hover:after {
 #service{
   padding:100px 0 0 20px;
 }
-#service {
-  display:flex; 
-}
+
 #service h2{
   
 }
-#service section{
+#contents{
+  display:flex;
+}
+#contents section{
   width:33%;
 }
