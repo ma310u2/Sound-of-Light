@@ -249,6 +249,7 @@ a {
 #news{
     margin-top: 50px;
     padding-left:20px;
+    min-height: 250px;
 }
 #news-box{
     padding-top:15px;
@@ -267,17 +268,18 @@ a {
 /*ページ先頭*/
 #top {
     padding: 10px;
-    margin: 0 auto;
+    margin: 0  auto;
+    margin-top: 50px;
     width: 45px;
 }
 #top p {
-    font-size: 20px;
-    color: #604C3F;
-    text-align: center
+    font-size: 18px;
+    color: black;
+    text-align: center;
 }
 .top-line_1,
 .top-line_2 {
-    background-color: #604C3F;
+    background-color: black;
     width: 28px;
     height: 4px;
     display: block;
