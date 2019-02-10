@@ -263,6 +263,33 @@ a {
 #news-box dd{
     padding-bottom:20px;
 }
+
+/*ページ先頭*/
+#top {
+    padding: 10px;
+    margin: 0 auto;
+    width: 45px;
+}
+#top p {
+    font-size: 20px;
+    color: #604C3F;
+    text-align: center
+}
+.top-line_1,
+.top-line_2 {
+    background-color: #604C3F;
+    width: 28px;
+    height: 4px;
+    display: block;
+    margin-bottom: 8px;
+}
+.top-line_1 {
+    transform: translateY(12px) rotate(-40deg);
+}
+.top-line_2 {
+    transform: translateX(18px) rotate(40deg);
+}
+
 #footer-bar{
     background-color:#202020;
     color:white;
