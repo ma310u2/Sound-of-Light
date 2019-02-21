@@ -6,7 +6,7 @@
 body {
     font-size: 17px;
     font-family: 'Noto Sans JP', sans-serif;
-
+    
 }
 
 #header-bar {
@@ -288,6 +288,7 @@ a {
 /*テーブル*/
 #table{
     margin-top: 50px;
+    line-height:2;
 }
 table{
     width:100%
@@ -311,6 +312,71 @@ td{
 }
 .table-tyuto {
     margin: 20px 15px 0;
+}
+/*お問い合わせ*/
+.contact{
+    margin: 40px 20px 0;
+
+}
+.contact-list{
+    list-style-type:disc;
+    color:black;
+    padding: 30px 40px;
+    background-color: #ccc;
+    box-sizing: border-box;
+}
+.contact ul {
+    display: flex;
+    color:black;
+    font-weight:normal;
+}
+.contact li{
+    width:250px;
+}
+.contact li:nth-child(odd){
+    margin-right:15px;
+}
+.contact input,textarea{
+    width:100%;
+    height:40px;
+    box-sizing:border-box;
+    margin-bottom:15px;
+    border-radius:5px;
+    border: 1px solid #000;
+    font-size:17px;
+    padding-left: 10px;
+    padding-top:5px;
+}
+.pcode input[type="tel"]{
+    margin:0 10px 15px; 
+} 
+.pcode input[type="tel"]:first-child{
+    margin-left:0;
+}
+.pcode input[type="tel"]:nth-child(2n){
+    margin-right:0;
+}
+.tel input[type="tel"]{
+    margin:0 10px 15px; 
+} 
+.tel input[type="tel"]:first-child{
+    margin-left:0;
+}
+.tel input[type="tel"]:last-child{
+    margin-right:0;
+}
+textarea{
+    height:250px;
+}
+/*ボタン*/
+input[type="submit"]{
+    width:10%;
+    padding:0;
+    background-color: #00CCCC;
+}
+.button:hover {
+    opacity: 0.6;
+   
 }
 /*ページ先頭*/
 #top {
