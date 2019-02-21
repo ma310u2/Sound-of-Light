@@ -300,9 +300,7 @@ th{
 td{
     padding:10px;
 }
-tobdy th:nth-child(2n){
-    background-color:#C8E6E6;
-}
+
 /*ページ先頭*/
 #top {
     padding: 10px;
