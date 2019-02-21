@@ -19,6 +19,8 @@ header {
     max-width: 1040px;
     margin: 0 auto;
     height:72px;
+    position: relative;
+    z-index: 1;
 }
 
 .title-log {
@@ -172,16 +174,16 @@ a {
 #contents-top{
     margin-top: 0px;
     position:relative;
-    z-index:-2;
 }
 #contents-top h1{
     position:absolute;
     top: 40px;
-    left: 42%;
     font-size:50px;
     color:white;
     letter-spacing:3px;
     text-shadow: 1px 2px 3px black;
+    width: 100%;
+    text-align: center;
 }
 #contents-img{
     width: 100%;
