@@ -348,7 +348,8 @@ td{
     padding-top:5px;
 }
 .pcode input[type="tel"]{
-    margin:0 10px 15px; 
+    margin:0 10px 15px;
+    width: 120px;
 } 
 .pcode input[type="tel"]:first-child{
     margin-left:0;
@@ -357,7 +358,10 @@ td{
     margin-right:0;
 }
 .tel input[type="tel"]{
-    margin:0 10px 15px; 
+    margin:0 10px 15px;
+    width: 75px;
+    padding: 0;
+    text-align: center;
 } 
 .tel input[type="tel"]:first-child{
     margin-left:0;
