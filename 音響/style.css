@@ -283,7 +283,26 @@ a {
 #news-box dd{
     padding-bottom:20px;
 }
-
+/*テーブル*/
+table{
+    margin:0 auto;
+}
+.table-title{
+    color:red;
+}
+tr:nth-child(2n+1) {
+    background-color: #ccc;
+}
+th{
+    text-align:left;
+    padding:10px;
+}
+td{
+    padding:10px;
+}
+tobdy th:nth-child(2n){
+    background-color:#C8E6E6;
+}
 /*ページ先頭*/
 #top {
     padding: 10px;
