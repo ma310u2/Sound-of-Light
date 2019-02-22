@@ -36,7 +36,13 @@ header {
     0px 0px 30px #ddffff, 
     0px 0px 40px #ddffff;
 }
-
+/*アイコン*/
+.menu-icon {
+    display: none;
+}
+#menu-icon1 {
+    display: none;
+}
 ul,
 a {
     list-style: none;
