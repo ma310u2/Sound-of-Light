@@ -18,15 +18,23 @@
             <div class="title-log">
                 <h1>Sound of Light</h1>
             </div>
+            <div class="menu-icon">
+                <span class="line_1"></span>
+                <span class="line_2"></span>
+                <span class="line_3"></span>
+            </div>
             <nav id="list-top">
                 <ul>
                     <li class="hli"><a class="li-hover link" href="../index.html">ホーム</a></li>
-                    <li class="hli"><a class="li-hover service link" href="../index.html#service">サービス案内</a>
+                    <li class="hli"><a class="li-hover link service" href="../index.html#service">サービス案内</a>
                         <ul id="sub-list">
                             <li class="hli-sub"><a class="link" href="../sound/index.html">Sound</a></li>
                             <li class="hli-sub"><a class="link" href="../lighting/index.html">Lighting</a></li>
                             <li class="hli-sub"><a class="link" href="../work/index.html">制作</a></li>
                         </ul>
+                        <div id="menu-icon1">
+                            <p class="icon">＋</p>
+                        </div>
                     </li>
                     <li class="hli"><a class="li-hover link" href="../info/index.html">会社概要</a></li>
                     <li class="hli"><a class="li-hover link" href="../recruit/index.html">採用情報</a></li>
@@ -38,79 +46,79 @@
 
     <div id="main">
         <div id="contents-top">
-         <img id="contents-img" src="../img/yomex-owo-678013-unsplash.jpg">
-         <h1>お問い合わせ</h1>
+            <img id="contents-img" src="../img/yomex-owo-678013-unsplash.jpg">
+            <h1>お問い合わせ</h1>
         </div>
         <div id="table">
-                <ul class="contact-list">
-                    <li>ご提供頂いた個人情報は、採用業務に利用し、他の目的には利用致しません。</li>
-                    <li>必須の項目は必須項目となりますので、必ずご入力ください。</li>
-                    <li>数字、アルファベットは半角で、カタカナは全角で入力してください。</li>
-                    <li>年や年度はすべて西暦で入力してください。</li>
-                </ul>
-                <div class="contact">
-                    <form action="#" method="#">
-                        <ul>
-                            <li>
-                                <p>名前（性）</p>
-                                <input type="text" name="name-sei" value="" placeholder="例）田中">
-                            </li>
-                            <li>
-                                <p>名前（名）</p>
-                                <input type="text" name="name-mei" value="" placeholder="例）太郎">
-                            </li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <p>フリガナ（性）</p>
-                                <input type="text" name="kan-sei" value="" placeholder="例）タナカ">
-                            </li>
-                            <li>
-                                <p>フリガナ（名）</p>
-                                <input type="text" name="kan-mei" value="" placeholder="例）タロウ">
-                            </li>
-                        </ul>
-                        <p>会社名</p>
-                        <input type="text" name="company" value>
-                        <ul>
-                            <li>
-                                <p>部署名</p>
-                                <input type="text" name="dept" value>
-                            </li>
-                            <li>
-                                <p>役職名</p>
-                                <input type="text" name="posｔ" value>
-                            </li>
-                        </ul>
-                        <p>メールアドレス</p>
-                        <input type="email" name="email1" value="" placeholder="例）×××＠mail.jp">
-                        <p>確認用</p>
-                        <input type="email" name="email2" value="" placeholder="例）×××＠mail.jp">
-                        <p>郵便番号</p>
-                        <div class="pcode">
-                            <input type="tel" name="pcode1" value="" placeholder="例）000">-<input type="tel" name="pcode2" value="" placeholder="例）0000">
-                            <p>住所（マンション・アパート名、部屋番号までご記入ください。）</p>
-                        </div>
-                        <input type="text" name="addr" value="" placeholder="例）神奈川県〇〇市〇〇-〇〇">
-                        <p>電話番号</p>
-                        <div class="tel">
-                            <input type="tel" name="tel1" value> -
-                            <input type="tel" name="tel2" value> -
-                            <input type="tel" name="tel3" value>
-                        </div>
-                        <p>お問い合わせ内容</p>
-                        <textarea cols="30" rows="4" name="message" placeholder="お問い合わせ内容をご記入ください。"></textarea>
-                        <center><input class="button" type="submit"></center>
-                    </form>
-                </div>
+            <ul class="contact-list">
+                <li>ご提供頂いた個人情報は、採用業務に利用し、他の目的には利用致しません。</li>
+                <li>必須の項目は必須項目となりますので、必ずご入力ください。</li>
+                <li>数字、アルファベットは半角で、カタカナは全角で入力してください。</li>
+                <li>年や年度はすべて西暦で入力してください。</li>
+            </ul>
+            <div class="contact">
+                <form action="#" method="#">
+                    <ul>
+                        <li>
+                            <p>名前（性）</p>
+                            <input type="text" name="name-sei" value="" placeholder="例）田中">
+                        </li>
+                        <li>
+                            <p>名前（名）</p>
+                            <input type="text" name="name-mei" value="" placeholder="例）太郎">
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>フリガナ（性）</p>
+                            <input type="text" name="kan-sei" value="" placeholder="例）タナカ">
+                        </li>
+                        <li>
+                            <p>フリガナ（名）</p>
+                            <input type="text" name="kan-mei" value="" placeholder="例）タロウ">
+                        </li>
+                    </ul>
+                    <p>会社名</p>
+                    <input type="text" name="company" value>
+                    <ul>
+                        <li>
+                            <p>部署名</p>
+                            <input type="text" name="dept" value>
+                        </li>
+                        <li>
+                            <p>役職名</p>
+                            <input type="text" name="posｔ" value>
+                        </li>
+                    </ul>
+                    <p>メールアドレス</p>
+                    <input type="email" name="email1" value="" placeholder="例）×××＠mail.jp">
+                    <p>確認用</p>
+                    <input type="email" name="email2" value="" placeholder="例）×××＠mail.jp">
+                    <p>郵便番号</p>
+                    <div class="pcode">
+                        <input type="tel" name="pcode1" value="" placeholder="例）000">-<input type="tel" name="pcode2" value="" placeholder="例）0000">
+                        <p>住所（マンション・アパート名、部屋番号までご記入ください。）</p>
+                    </div>
+                    <input type="text" name="addr" value="" placeholder="例）神奈川県〇〇市〇〇-〇〇">
+                    <p>電話番号</p>
+                    <div class="tel">
+                        <input type="tel" name="tel1" value> -
+                        <input type="tel" name="tel2" value> -
+                        <input type="tel" name="tel3" value>
+                    </div>
+                    <p>お問い合わせ内容</p>
+                    <textarea cols="30" rows="4" name="message" placeholder="お問い合わせ内容をご記入ください。"></textarea>
+                    <center><input class="button" type="submit"></center>
+                </form>
             </div>
-       <div id="top">
+        </div>
+        <div id="top">
             <a href="#logo">
             <span class="top-line_1"></span>
             <span class="top-line_2"></span>
             <p>top</p>
             </a>
-       </div>
+        </div>
     </div>
 
     <div id=footer-bar>
