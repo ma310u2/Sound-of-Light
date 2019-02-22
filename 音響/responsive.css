@@ -1,55 +1,10 @@
 @media only screen and (min-width: 901px) {
-    .header-list {
+     {
         display: block!important;
     }
 }
 
 @media all and (max-width: 900px) {
-    /*アイコン*/
-    .menu-icon {
-        cursor: pointer;
-        padding: 9px 25px;
-        display: block;
-        position: fixed;
-        top: 0;
-        right: 0;
-        z-index: 10;
-    }
-    .line_1,
-    .line_2,
-    .line_3 {
-        width: 26px;
-        height: 3px;
-        background-color: #E6D9CE;
-        display: block;
-        margin-bottom: 8px;
-    }
-    .menu-icon span {
-        transition: .4s;
-    }
-    .menu-icon.close .line_1 {
-        -webkit-transform: translateY(20px) rotate(-45deg);
-        transform: translateY(12px) rotate(-45deg);
-    }
-    .menu-icon.close .line_2 {
-        opacity: 0;
-    }
-    .menu-icon.close .line_3 {
-        -webkit-transform: translateY(-20px) rotate(45deg);
-        transform: translateY(-10px) translateX(0px) rotate(45deg);
 
-    }
-    /*サブアイコン*/
-     #menu-icon1 {
-        display: inline-block;
-        padding: 10px 25px;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    #menu-icon1:hover {
-        background-color: #997A65;
-        color: #604C3F;
-    }
 
 }
