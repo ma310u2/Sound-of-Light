@@ -68,7 +68,8 @@ a {
 
 .hli a {
     display: inline-block;
-    line-height: 72px;
+    margin: 11px 0;
+    line-height: 50px;
     position:relative;
     z-index:1;
     width:100%;
