@@ -68,8 +68,7 @@ a {
 
 .hli a {
     display: inline-block;
-    line-height:50px;
-    margin: 11px 0;
+    line-height: 72px;
     position:relative;
     z-index:1;
     width:100%;
@@ -90,8 +89,14 @@ a {
    text-align:center;
    background-color:rgb(0,0,0,0.8);
 }
+.hli-sub:first-child{
+    border-top:1px solid white;
+}
 .hli-sub:nth-child(n+2){
     border-top:1px solid white;
+}
+.hli-sub:last-child{
+    border-bottom:1px solid white;
 }
 
 /*ホバー効果*/
