@@ -1,5 +1,5 @@
 @media only screen and (min-width: 901px) {
-     .hli{
+    .hli {
         display: block!important;
     }
 }
@@ -16,19 +16,19 @@
         right: 0;
         z-index: 10;
     }
-    .menu-icon.hover span{
-        box-shadow:0px 0px 10px #4169e1,
+    .menu-icon.hover span {
+        box-shadow: 0px 0px 10px #4169e1,
         0px 0px 20px #4169e1,
         0px 0px 30px #4169e1,
         0px 0px 40px #4169e1;
-        }
-     .menu-icon.close.hover span{
-        box-shadow:0px 0px 10px #ff7f50,
+    }
+    .menu-icon.close.hover span {
+        box-shadow: 0px 0px 10px #ff7f50,
         0px 0px 20px #ff7f50,
         0px 0px 30px #ff7f50,
-        0px 0px 40px #ff7f50;         
-     }   
-        
+        0px 0px 40px #ff7f50;
+    }
+
     .line_1,
     .line_2,
     .line_3 {
@@ -54,48 +54,46 @@
 
     }
     /*サブアイコン*/
-     #menu-icon1 {
+    #menu-icon1 {
         display: block;
         padding: 18px 25px;
         position: absolute;
         right: 0;
         top: 0px;
-        z-index:2;
+        z-index: 2;
         font-size: 24px;
     }
     #menu-icon1:hover {
         text-shadow: 1px 2px 3px black;
-        box-shadow:0 0 50px white inset,
+        box-shadow: 0 0 50px white inset,
         0 0 100px white inset;
         color: white;
     }
-    #list-top{
-        position:absolute;
-        top:0px;
-        width:100%;
-        background-color:black;
-        
-    }
-    #list-top{
-        
-    }
+    #list-top {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        background-color: black;
 
-    #list-top ul{
+    }
+    #list-top {}
+
+    #list-top ul {
         flex-direction: column;
     }
     #list-top li {
         position: relative;
     }
-.hli a {
-    margin:0;
-    line-height: 72px;
-}
-    #list-top a:hover{
-    color:white;
-    text-shadow: 1px 2px 3px black;
-    box-shadow:0 0 50px white inset,
-    0 0 100px white inset;
-    transition:0.3s;
+    .hli a {
+        margin: 0;
+        line-height: 72px;
+    }
+    #list-top a:hover {
+        color: white;
+        text-shadow: 1px 2px 3px black;
+        box-shadow: 0 0 50px white inset,
+        0 0 100px white inset;
+        transition: 0.3s;
     }
 
 }
