@@ -7,65 +7,49 @@
 @media all and (max-width: 900px) {
     /*アイコン*/
     .menu-icon {
+        cursor: pointer;
+        padding: 9px 25px;
         display: block;
-        position: absolute;
-        top: 25px;
-        right: 40px;
-        font-size: 12px;
-    }
-
-    .menu-icon.hover p {
-        text-shadow: 0px 0px 10px #4169e1,
-        0px 0px 20px #4169e1,
-        0px 0px 30px #4169e1,
-        0px 0px 40px #4169e1,
-        0px 0px 50px #4169e1,
-        0px 0px 60px #4169e1;
-        transition: .4s;
-    }
-    .menu-icon.close.hover p {
-        text-shadow: 0px 0px 10px #ff7f50,
-        0px 0px 20px #ff7f50,
-        0px 0px 30px #ff7f50,
-        0px 0px 40px #ff7f50,
-        0px 0px 50px #ff7f50,
-        0px 0px 60px #ff7f50;
-    }
-
-    .menu-icon.hover span {
-        box-shadow: 0px 0px 10px #4169e1,
-        0px 0px 20px #4169e1,
-        0px 0px 30px #4169e1,
-        0px 0px 40px #4169e1;
-    }
-    .menu-icon.close.hover span {
-        box-shadow: 0px 0px 10px #ff7f50,
-        0px 0px 20px #ff7f50,
-        0px 0px 30px #ff7f50,
-        0px 0px 40px #ff7f50;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10;
     }
     .line_1,
     .line_2,
     .line_3 {
-        background-color: white;
-        height: 4px;
-        width: 30px;
+        width: 26px;
+        height: 3px;
+        background-color: #E6D9CE;
         display: block;
-        margin-bottom: 7px;
+        margin-bottom: 8px;
+    }
+    .menu-icon span {
         transition: .4s;
     }
-
     .menu-icon.close .line_1 {
-        -webkit-transform: translateY(20px) rotate(-315deg);
-        transform: translateY(12px) rotate(-315deg);
+        -webkit-transform: translateY(20px) rotate(-45deg);
+        transform: translateY(12px) rotate(-45deg);
     }
     .menu-icon.close .line_2 {
         opacity: 0;
     }
     .menu-icon.close .line_3 {
-        -webkit-transform: translateY(-20px) rotate(315deg);
-        transform: translateY(-10px) translateX(0px) rotate(315deg);
+        -webkit-transform: translateY(-20px) rotate(45deg);
+        transform: translateY(-10px) translateX(0px) rotate(45deg);
 
+    }
+    /*サブアイコン*/
+     #menu-icon1 {
+        display: inline-block;
+        padding: 10px 25px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    #menu-icon1:hover {
+        background-color: #997A65;
+        color: #604C3F;
     }
 
 }
