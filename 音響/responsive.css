@@ -1,11 +1,11 @@
-@media only screen and (min-width: 901px) {
+@media only screen and (min-width: 851px) {
     .hli {
         display: block!important;
     }
 }
 
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 850px) {
     /*アイコン*/
     #menu-icon {
         cursor: pointer;
@@ -94,6 +94,31 @@
         box-shadow: 0 0 50px white inset,
         0 0 100px white inset;
         transition: 0.3s;
+    }
+    #concept {
+        display:block;
+    }
+    #concept h2{
+        width:100%;
+    }
+    #concept p{
+        width: 100%;
+    }
+    #concept img {
+        display:none;
+        }
+    #contents {
+        display: block;
+    }
+    #contents section{
+        width:330px;
+        margin:0 auto;
+
+    }
+    #contents img {
+    }
+    .text-contents{
+        text-align:center;
     }
 
 }
