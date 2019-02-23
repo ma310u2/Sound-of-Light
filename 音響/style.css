@@ -28,7 +28,7 @@ header {
     font-family: 'Righteous', cursive;
     max-width: 900px;
     margin: 0 auto;
-    padding: 15px 35px 15px 20px;
+    padding: 0px 35px 0px 20px;
     float: left;
     font-size: 17px;
     letter-spacing: 3px;
@@ -36,6 +36,7 @@ header {
     0px 0px 20px #ddffff,
     0px 0px 30px #ddffff,
     0px 0px 40px #ddffff;
+    line-height: 72px;
 }
 
 /*アイコン*/
