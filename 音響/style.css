@@ -1,4 +1,5 @@
 * {
+    box-sizing:border-box;
     padding: 0;
     margin: 0;
 }
@@ -16,7 +17,7 @@ body {
 
 header {
     color: white;
-    max-width: 1040px;
+    max-width: 900px;
     margin: 0 auto;
     height: 72px;
     position: relative;
@@ -25,7 +26,7 @@ header {
 
 .title-log {
     font-family: 'Righteous', cursive;
-    max-width: 1040px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 15px 35px 15px 20px;
     float: left;
@@ -58,7 +59,7 @@ a {
 }
 
 #list-top ul {
-    max-width: 1040px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -160,7 +161,7 @@ a {
 }
 
 #main {
-    max-width: 1040px;
+    max-width: 900px;
     margin: 0px auto;
 }
 
@@ -181,7 +182,7 @@ a {
 }
 
 .top-text {
-    max-width: 1040px;
+    max-width: 900px;
     margin: 0 auto;
     position: absolute;
     top: 95px;
@@ -224,40 +225,38 @@ a {
     display: flex;
     padding-top: 40px;
     position: relative;
-    min-height: 250px;
+    min-height: 340px;
 }
 
 #concept h2 {
     padding-left: 20px;
     font-size: 34px;
-    float: left;
     color: white;
     text-shadow: 1px 1px 0px black,
     -1px 1px 0px black,
     1px -1px 0px black,
     -1px -1px 0px black;
+    width: 45%;
 }
 
 #concept img {
-    width: 360px;
+    width: 380px;
     position: absolute;
     top: 65px;
-    left: 21px;
+    left: 0px;
     z-index: -1;
 }
 
 #concept p {
-    float: right;
-    padding: 0px 20px 0 40px;
+    padding: 0px 20px;
     letter-spacing: 1px;
     line-height: 30px;
-    width: 50%;
+    width: 57%;
     text-align: justify;
 }
 
 #service {
     padding: 20px 20px;
-    clear: right;
     background-color: rgb(221, 221, 221);
     margin: 50px 0px 0;
 }
@@ -268,7 +267,7 @@ a {
 }
 
 #contents section {
-    width: 30%;
+    width: 34%;
     padding: 40px 10px;
     text-align: center;
 }
@@ -454,7 +453,7 @@ input[type="submit"] {
     padding: 10px;
     margin: 0 auto;
     margin-top: 50px;
-    width: 45px;
+    width: 65px;
 }
 
 #top p {
