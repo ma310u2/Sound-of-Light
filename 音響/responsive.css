@@ -7,7 +7,7 @@
 
 @media all and (max-width: 900px) {
     /*アイコン*/
-    .menu-icon {
+    #menu-icon {
         cursor: pointer;
         padding: 20px 25px;
         display: block;
@@ -16,13 +16,13 @@
         right: 0;
         z-index: 10;
     }
-    .menu-icon.hover span {
+    #menu-icon.hover span {
         box-shadow: 0px 0px 10px #4169e1,
         0px 0px 20px #4169e1,
         0px 0px 30px #4169e1,
         0px 0px 40px #4169e1;
     }
-    .menu-icon.close.hover span {
+    #menu-icon.close.hover span {
         box-shadow: 0px 0px 10px #ff7f50,
         0px 0px 20px #ff7f50,
         0px 0px 30px #ff7f50,
@@ -38,17 +38,17 @@
         display: block;
         margin-bottom: 8px;
     }
-    .menu-icon span {
+    #menu-icon span {
         transition: .4s;
     }
-    .menu-icon.close .line_1 {
+    #menu-icon.close .line_1 {
         -webkit-transform: translateY(20px) rotate(-45deg);
         transform: translateY(12px) rotate(-45deg);
     }
-    .menu-icon.close .line_2 {
+    #menu-icon.close .line_2 {
         opacity: 0;
     }
-    .menu-icon.close .line_3 {
+    #menu-icon.close .line_3 {
         -webkit-transform: translateY(-20px) rotate(45deg);
         transform: translateY(-10px) translateX(0px) rotate(45deg);
 
