@@ -81,19 +81,7 @@
         0 0 100px white inset;
         color: white;
     }
-    #list-top {
-        position: absolute;
-        top: 0px;
-        width: 100%;
 
-    }
-
-    #list-top ul {
-        flex-direction: column;
-    }
-    #list-top li {
-        position: relative;
-    }
     .hli{
         display:none;
         background-color: rgb(0, 0, 0);
@@ -102,16 +90,7 @@
         margin: 0;
         line-height: 50px;
     }
-    #list-top a:hover {
-        color: white;
-        text-shadow: 1px 2px 3px black;
-        box-shadow: 0 0 50px white inset,
-        0 0 100px white inset;
-        transition: none;
-    }
-    #sub-list a:hover {
-        transition: none;
-    }
+
     .top-img{
         height:300px;
     }
