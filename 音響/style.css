@@ -463,18 +463,3 @@ input[type="submit"] {
     color: black;
     text-align: center;
 }
-
-.top-line_1,
-.top-line_2 {
-    background-color: black;
-    width: 28px;
-    height: 4px;
-    display: block;
-    margin-bottom: 8px;
-}
-
-.top-line_1 {
-    transform: translateY(12px) rotate(-40deg);
-}
-
-.top-line_2 {
