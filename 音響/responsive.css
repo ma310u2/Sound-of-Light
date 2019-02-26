@@ -21,7 +21,7 @@
     /*アイコン*/
     #menu-icon {
         cursor: pointer;
-        padding: 10px 25px;
+        padding: 9px 25px;
         display: block;
         position: absolute;
         top: 0;
@@ -68,7 +68,7 @@
     /*サブアイコン*/
     #menu-icon1 {
         display: block;
-        padding: 5px 25px;
+        padding: 7px 25px;
         position: absolute;
         right: 0;
         top: 0px;
