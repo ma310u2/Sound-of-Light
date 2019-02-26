@@ -475,3 +475,33 @@ input[type="submit"] {
  .top-line_1 {
     transform: translateY(12px) rotate(-40deg);
 }
+.top-line_2 {
+	    transform: translateX(18px) rotate(40deg);
+	}
+	
+	#footer-bar {
+	    background-color: #202020;
+	    color: white;
+	}
+	
+	footer {
+	    max-width: 1040px;
+	    margin: 0 auto;
+	    margin-top: 60px;
+	    padding: 20px;
+	}
+	
+	.footer-log {
+	    font-size: 34px;
+	    font-family: 'Righteous', cursive;
+	    padding-left: 20px;
+	}
+	
+	.footer-text {
+	    line-height: 2;
+	    padding-left: 20px;
+	}
+	
+	#copy {
+	    text-align: center;
+	}
