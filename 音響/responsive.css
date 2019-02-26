@@ -91,6 +91,9 @@
     #list-top li {
         position: relative;
     }
+    .hli{
+        display:none;
+    }
     .hli a {
         margin: 0;
         line-height: 72px;
@@ -105,18 +108,32 @@
     #sub-list a:hover {
         transition: 0s;
     }
+    .top-page h1 {
+        font-size:26px;
+        margin-left:5px;
+    }
     #concept {
         display:block;
     }
     #concept h2{
         width:100%;
+        font-size:24px;
+        padding-left:5px;
     }
     #concept p{
         width: 100%;
+        padding-left:5px;
     }
     #concept img {
         display:none;
         }
+    #main h2{
+        font-size:24px;
+    }
+    #service{
+        padding:20px 5px;
+    }
+
     #contents-img {
         height: 100px;
     }
@@ -130,12 +147,23 @@
     #contents section{
         width:330px;
         margin:0 auto;
+        padding:20px 10px;
 
     }
     #contents img {
     }
     .text-contents{
         text-align:center;
+    }
+    #news-box{
+        padding-left:15px;
+    }
+    .footer-log {
+        font-size:26px;
+        padding-left:5px;
+    }
+    .footer-text{
+        padding-left:5px;
     }
 
 }
