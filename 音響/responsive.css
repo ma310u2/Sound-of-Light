@@ -100,7 +100,10 @@
         text-shadow: 1px 2px 3px black;
         box-shadow: 0 0 50px white inset,
         0 0 100px white inset;
-        transition: 0.3s;
+        transition: 0s;
+    }
+    #sub-list a:hover {
+        transition: 0s;
     }
     #concept {
         display:block;
