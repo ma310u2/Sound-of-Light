@@ -11,14 +11,7 @@ body {
 
 
 
-header {
-    color: white;
-    max-width: 900px;
-    margin: 0 auto;
-    height: 72px;
-    position: relative;
-    z-index: 1;
-}
+
 
 .title-log {
     font-family: 'Righteous', cursive;
