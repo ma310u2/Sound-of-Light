@@ -17,6 +17,7 @@
     .title-log{
         font-size:13px;
         line-height:50px;
+        float: none;
     }
     /*アイコン*/
     #menu-icon {
