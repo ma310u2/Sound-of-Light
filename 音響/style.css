@@ -1,8 +1,9 @@
 * {
-    box-sizing:border-box;
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
 body {
     font-size: 17px;
     font-family: 'Noto Sans JP', sans-serif;
@@ -22,6 +23,7 @@ header {
     position: relative;
     z-index: 1;
 }
+
 .title-log {
     font-family: 'Righteous', cursive;
     max-width: 900px;
@@ -32,9 +34,8 @@ header {
     letter-spacing: 3px;
     line-height: 72px;
 }
+
 /*アイコン*/
-
-
 
 #menu-icon {
     display: none;
@@ -255,10 +256,15 @@ a {
     background-color: rgb(221, 221, 221);
     margin: 50px 0px 0;
 }
-.service-text{
-	text-align:justify;
-	margin-top:15px;
-	line-height:1.7;
+
+.service-text {
+    text-align: justify;
+    margin-top: 15px;
+    line-height: 1.7;
+}
+
+#service-img img {
+    width: 50%;
 }
 
 #contents {
@@ -460,6 +466,7 @@ input[type="submit"] {
     color: black;
     text-align: center;
 }
+
 .top-line_1,
 .top-line_2 {
     background-color: black;
@@ -469,36 +476,37 @@ input[type="submit"] {
     margin-bottom: 8px;
 }
 
- .top-line_1 {
+.top-line_1 {
     transform: translateY(12px) rotate(-40deg);
 }
+
 .top-line_2 {
-	    transform: translateX(18px) rotate(40deg);
-	}
-	
-	#footer-bar {
-	    background-color: #202020;
-	    color: white;
-	}
-	
-	footer {
-	    max-width: 1040px;
-	    margin: 0 auto;
-	    margin-top: 60px;
-	    padding: 20px;
-	}
-	
-	.footer-log {
-	    font-size: 34px;
-	    font-family: 'Righteous', cursive;
-	    padding-left: 20px;
-	}
-	
-	.footer-text {
-	    line-height: 2;
-	    padding-left: 20px;
-	}
-	
-	#copy {
-	    text-align: center;
-	}
+    transform: translateX(18px) rotate(40deg);
+}
+
+#footer-bar {
+    background-color: #202020;
+    color: white;
+}
+
+footer {
+    max-width: 1040px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.footer-log {
+    font-size: 34px;
+    font-family: 'Righteous', cursive;
+    padding-left: 20px;
+}
+
+.footer-text {
+    line-height: 2;
+    padding-left: 20px;
+}
+
+#copy {
+    text-align: center;
+}
