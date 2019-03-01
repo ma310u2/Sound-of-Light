@@ -69,7 +69,7 @@
     /*サブアイコン*/
     #menu-icon1 {
         display: block;
-        padding:0 6px;
+        padding: 7px 5px;
         position: absolute;
         right: 0;
         top: 0px;
@@ -81,9 +81,6 @@
         box-shadow: 0 0 50px white inset,
         0 0 100px white inset;
         color: white;
-    }
-    #icon{
-        line-height:50px;
     }
     #list-top {
         position: absolute;
@@ -149,7 +146,7 @@
         height: 100px;
     }
     #contents-top h1{
-        top:28px;
+        top: 28px;
         font-size:25px;
     }
     #contents {
