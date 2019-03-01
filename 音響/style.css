@@ -213,6 +213,7 @@ a {
     width: 100%;
     height: 170px;
     object-fit: cover;
+    margin-bottom: 40px;
 }
 
 #concept {
@@ -254,7 +255,11 @@ a {
     background-color: rgb(221, 221, 221);
     margin: 50px 0px 0;
 }
-
+.service-text{
+	text-align:justify;
+	margin-top:15px;
+	line-height:1.7;
+}
 
 #contents {
     display: flex;
