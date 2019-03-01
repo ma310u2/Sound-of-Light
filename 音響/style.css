@@ -22,6 +22,21 @@ header {
     position: relative;
     z-index: 1;
 }
+.title-log {
+    font-family: 'Righteous', cursive;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px 35px 0px 20px;
+    float: left;
+    font-size: 17px;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 10px #ddffff,
+    0px 0px 20px #ddffff,
+    0px 0px 30px #ddffff,
+    0px 0px 40px #ddffff;
+    line-height: 72px;
+}
+/*アイコン*/
 
 
 
