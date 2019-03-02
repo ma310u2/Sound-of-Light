@@ -158,6 +158,11 @@
     #service {
         padding: 20px 5px;
     }
+    #service-img img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
 
     #contents-img {
         height: 100px;
