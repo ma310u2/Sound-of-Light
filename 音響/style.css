@@ -258,7 +258,9 @@ a {
     background-color: rgb(221, 221, 221);
     margin: 50px 0px 0;
 }
-
+#service-img {
+    margin-top: 25px;
+}
 .service-text {
     text-align: justify;
     margin-top: 15px;
