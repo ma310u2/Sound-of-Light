@@ -1,3 +1,4 @@
+
 @media only screen and (min-width: 850px) {
     .hli {
         display: block!important;
@@ -201,22 +202,28 @@
     .footer-text {
         padding-left: 5px;
     }
+    tr{
+        display:grid;
+        list-style:square;
+        margin: 15px 0;
+    }
+    tr:nth-child(2n+1) {
+        background-color:transparent;
+    }
     th {
-        width: 90px;
-        text-align: center;
+        width:100%;
+        padding: 5px;
+        background-color:#ccc;
     }
     td {
         padding: 5px;
         text-align: justify;
-        padding-left: 10px;
+        margin-left:15px;
     }
-    .table-sinsotu {
-        margin: 20px 5px 0;
+    .table-sinsotu,.table-tyuto {
+        margin: 0px 5px;
     }
 
-    .table-tyuto {
-        margin: 20px 5px 0;
-    }
     .contact {
         margin: 20px 5px;
     }
