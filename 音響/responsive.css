@@ -167,9 +167,12 @@
 
     #contents-img {
         height: 100px;
+        margin-top: 30px;
+        margin-bottom: 0;
+        padding-top: 20px;
     }
     #contents-top h1 {
-        top: 28px;
+        top: 75px;
         font-size: 25px;
     }
     #contents {
@@ -181,7 +184,6 @@
         padding: 20px 10px;
 
     }
-    #contents img {}
     .text-contents {
         text-align: justify;
     }
