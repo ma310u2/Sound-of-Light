@@ -203,11 +203,12 @@
     }
     th {
         width: 90px;
-        padding: 5px;
+        text-align: center;
     }
     td {
         padding: 5px;
         text-align: justify;
+        padding-left: 10px;
     }
     .table-sinsotu {
         margin: 20px 5px 0;
