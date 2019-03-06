@@ -59,29 +59,33 @@
             <div class="contact">
                 <form action="#" method="#">
                     <ul>
-                        <li>
+                        <li id="name-sei">
                             <p>名前（性）</p><span>必須</span>
                             <input type="text" name="name-sei" value="" placeholder="例）田中" autofocus required>
                         </li>
-                        <li>
+                        <li id="name-mei">
                             <p>名前（名）</p><span>必須</span>
                             <input type="text" name="name-mei" value="" placeholder="例）太郎" required>
                         </li>
                     </ul>
                     <ul>
-                        <li>
+                        <li id="kan-sei">
                             <p>フリガナ（性）</p><span>必須</span>
                             <input type="text" name="kan-sei" value="" placeholder="例）タナカ" required>
                         </li>
-                        <li>
+                        <li id="kan-mei">
                             <p>フリガナ（名）</p><span>必須</span>
                             <input type="text" name="kan-mei" value="" placeholder="例）タロウ" required>
                         </li>
                     </ul>
+                    <div id="email1">
                     <p>メールアドレス</p><span>必須</span>
                     <input type="email" name="email1" value="" placeholder="例）×××＠mail.jp" required>
+                    </div>
+                    <div id="email2">
                     <p>確認用</p><span>必須</span>
                     <input type="email" name="email2" value="" placeholder="例）×××＠mail.jp" required>
+                    </div>
                     <p>会社名</p>
                     <input type="text" name="company" value>
                     <ul>
@@ -107,8 +111,10 @@
                         <input type="tel" name="tel2" value> -
                         <input type="tel" name="tel3" value>
                     </div>
+                    <div id="textarea">
                     <p>お問い合わせ内容</p><span></span>
                     <textarea cols="30" rows="4" name="message" placeholder="お問い合わせ内容をご記入ください。" required></textarea>
+                    </div>
                     <center><input class="button" type="submit"></center>
                 </form>
             </div>
