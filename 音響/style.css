@@ -443,7 +443,26 @@ textarea {
 textarea {
     height: 250px;
 }
-
+/*間違え*/
+input[type="email"]:invalid,
+input[type="text"]:required,
+input[type="email"]:required,
+textarea:required{
+    background-color:#ffd3d3;
+}
+/*入力済み*/
+input[type="text"]:valid,
+input[type="email"]:valid,
+textarea:valid{
+    background-color:transparent;
+}
+/*フォーカス*/
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus{
+    background-color:#CCC;
+}
 /*ボタン*/
 
 input[type="submit"] {
