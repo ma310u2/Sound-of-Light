@@ -374,7 +374,6 @@ td {
 
 .contact {
     margin: 40px 20px 0;
-
 }
 
 .contact-list {
@@ -393,8 +392,15 @@ td {
 
 .contact li {
     width: 250px;
+    font-size:17px;
 }
-
+.contact p{
+    display:initial;
+    margin-right: 10px;
+}
+.contact span{
+    color:red;
+}
 .contact li:nth-child(odd) {
     margin-right: 15px;
 }
