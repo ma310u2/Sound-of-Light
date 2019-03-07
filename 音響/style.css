@@ -450,11 +450,12 @@ textarea {
     height: 250px;
 }
 /*間違え*/
-input[type="email"]:invalid,
+
+/*input[type="email"]:invalid,
 input[type="text"]:required,
 input[type="email"]:required,
 textarea:required{
-    background-color:#ffd3d3;
+    background-color:#ffd3d3;*/
 }
 /*入力済み*/
 input[type="text"]:valid,
