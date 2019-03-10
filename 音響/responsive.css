@@ -233,11 +233,13 @@
         width:100%;
         padding: 10px 15px;
         background-color:#ccc;
+        
     }
     td {
         padding: 10px 5px;
         text-align: justify;
         margin-left: 10px;
+        padding-left: 20px;
     }
     .table-sinsotu,.table-tyuto {
         margin: 0px;
