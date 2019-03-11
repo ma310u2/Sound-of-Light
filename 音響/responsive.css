@@ -161,6 +161,10 @@
     #service {
         padding: 20px 5px;
     }
+    h2#service-title{
+        margin-left:15px;
+        padding-left:0;
+    }
     #service-img{
         margin: 25px 15px 0;
     }
@@ -175,14 +179,14 @@
     /*コンテンツ*/
     #contents-img {
         height: 100px;
-        margin-bottom: 0;
+        margin-bottom: 20px;
     }
     hr{
-        margin-top: 30px;
+        /* margin-top: 30px; */
         margin-bottom: 20px;
     }
     #contents-top h1 {
-        top: 55px;
+        top: 65px;
         font-size: 25px;
     }
     #contents {
