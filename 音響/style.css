@@ -165,9 +165,7 @@ a {
     font-size: 34px;
     margin-left: 20px;
     margin-top: 15px;
-    border-left: 15px solid;
-    border-radius: 8px;
-    padding-left: 6px;
+
 }
 
 .top-page {
@@ -260,6 +258,11 @@ a {
     padding: 20px 20px;
     background-color: rgb(221, 221, 221);
     margin: 50px 0px 0;
+}
+#service-title{
+    border-left: 15px solid;
+    border-radius: 8px;
+    padding-left: 6px;
 }
 #service-img {
     margin: 25px 20px 0;
