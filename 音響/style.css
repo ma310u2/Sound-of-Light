@@ -163,7 +163,7 @@ a {
 
 #main h2 {
     font-size: 34px;
-    margin-left: 20px;
+    
 }
 
 .top-page {
@@ -261,6 +261,7 @@ a {
     border-left: 15px solid;
     border-radius: 8px;
     padding-left: 6px;
+    margin-left: 20px;
 }
 #service-img {
     margin: 25px 20px 0;
