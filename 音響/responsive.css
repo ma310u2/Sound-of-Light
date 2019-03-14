@@ -134,8 +134,11 @@
     .top-img {
         height: 300px;
     }
+    .top-text{
+        top:80px;
+    }
     .top-page h1 {
-        font-size: 26px;
+        font-size: 29.30px;
         margin-left: 15px;
     }
     #concept {
@@ -154,7 +157,7 @@
         display: none;
     }
     #main h2 {
-        font-size: 24px;
+        font-size: 23.44px;
         padding-left: 15px;
     }
     /*サービス*/
@@ -187,8 +190,8 @@
         margin-left: 30px;
     }
     #contents-top h1 {
-        top: 65px;
-        font-size: 25px;
+        top: 55px;
+        font-size: 36.62px;
     }
     #contents {
         display: block;
@@ -224,7 +227,6 @@
     }
     /*テーブル*/
     .table-title {
-        color: red;
         margin-left:15px;
     }
     tr{
@@ -258,5 +260,9 @@
         padding: 22px;
         padding-left: 33px;
     }
+    .contact li {
+        font-size: 15px;
+    }
 
+}
 }
