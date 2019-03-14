@@ -9,7 +9,6 @@
 body {
     font-size: 17px;
     font-family: 'Noto Sans JP', sans-serif;
-
 }
 
 #header-bar {
@@ -188,9 +187,8 @@ a {
 }
 
 .top-page h1 {
-    font-size: 34px;
+    font-size: 41px;
     color: white;
-
     margin-left: 20px;
     letter-spacing: 3px;
     text-shadow: 1px 2px 3px black;
@@ -341,6 +339,7 @@ hr{
     width: 125px;
     font-weight: bold;
     letter-spacing: 1px;
+    color: #4875d1;
 }
 
 #news-box dd {
@@ -488,11 +487,17 @@ textarea:focus{
 input[type="submit"] {
     width: 100px;
     padding: 0;
-    background-color: #00CCCC;
+    background-color: #4875d1;
+    color: white;
+    font-weight: bold;
+    border:none;
 }
 
 .button:hover {
-    opacity: 0.6;
+    text-shadow: 1px 2px 2px black;
+    box-shadow: 0 0 50px #4875d1 inset,0 0 100px #00cccc inset;
+    transition: 0.6s;
+    
 
 }
 
@@ -507,13 +512,13 @@ input[type="submit"] {
 
 #top p {
     font-size: 18px;
-    color: black;
+    color: #4875d1;
     text-align: center;
 }
 
 .top-line_1,
 .top-line_2 {
-    background-color: black;
+    background-color: #4875d1;
     width: 28px;
     height: 4px;
     display: block;
