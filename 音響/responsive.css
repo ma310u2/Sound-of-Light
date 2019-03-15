@@ -1,4 +1,3 @@
-
 @media only screen and (min-width: 850px) {
     .hli {
         display: block!important;
@@ -21,6 +20,7 @@
         letter-spacing: 1.5px;
         padding-left: 15px;
     }
+
     /*アイコン*/
     #menu-icon {
         cursor: pointer;
@@ -40,6 +40,7 @@
         0px 0px 60px #4169e1;
         transition: .4s;
     }
+
     #menu-icon.close.hover p {
         text-shadow: 0px 0px 10px #ff7f50,
         0px 0px 20px #ff7f50,
@@ -61,6 +62,7 @@
         0px 0px 30px #ff7f50,
         0px 0px 40px #ff7f50;
     }
+
     .line_1,
     .line_2,
     .line_3 {
@@ -76,9 +78,11 @@
         -webkit-transform: translateY(20px) rotate(-315deg);
         transform: translateY(12px) rotate(-315deg);
     }
+
     #menu-icon.close .line_2 {
         opacity: 0;
     }
+
     #menu-icon.close .line_3 {
         -webkit-transform: translateY(-20px) rotate(315deg);
         transform: translateY(-10px) translateX(0px) rotate(315deg);
@@ -100,6 +104,8 @@
         0 0 100px white inset;
         color: white;
     }
+
+    /*メニューリスト*/
     #list-top {
         position: absolute;
         top: 0px;
@@ -110,17 +116,22 @@
     #list-top ul {
         flex-direction: column;
     }
+
     #list-top li {
         position: relative;
     }
+
     .hli {
         display: none;
         background-color: rgb(0, 0, 0);
     }
+
     .hli a {
         margin: 0;
         line-height: 50px;
     }
+
+    /*メニューホバー*/
     #list-top a:hover {
         color: white;
         text-shadow: 1px 2px 3px black;
@@ -128,141 +139,173 @@
         0 0 100px white inset;
         transition: none;
     }
+
     #sub-list a:hover {
         transition: none;
     }
+
+    /*トップ画像*/
     .top-img {
         height: 300px;
     }
-    .top-text{
-        top:80px;
+
+    .top-text {
+        top: 80px;
     }
+
     .top-page h1 {
         font-size: 29.30px;
         margin-left: 15px;
     }
+    /*コンセプト*/
     #concept {
         display: block;
     }
+
     #concept h2 {
         width: 100%;
         font-size: 24px;
         padding-left: 15px;
     }
+
     #concept p {
         width: 100%;
         padding: 0 15px;
     }
+
     #concept img {
         display: none;
     }
+
     #main h2 {
         font-size: 23.44px;
         padding-left: 15px;
     }
+
     /*サービス*/
     #service {
         padding: 20px 5px;
     }
-    h2#service-title{
-        margin-left:15px;
+
+    h2#service-title {
+        margin-left: 15px;
         padding-left: 6px;
         margin-top: 30px;
     }
-    #service-img{
+
+    #service-img {
         margin: 25px 15px 0;
     }
+
     #service-img img {
         width: 100%;
         height: 220px;
         object-fit: cover;
     }
-    .service-text{
+
+    .service-text {
         margin: 15px 15px 0;
     }
+
     /*コンテンツ*/
     #contents-img {
         height: 100px;
         margin-bottom: 0;
     }
-    hr{
+
+    hr {
         margin-bottom: 20px;
         margin-left: 30px;
     }
+
     #contents-top h1 {
         top: 55px;
         font-size: 36.62px;
     }
+
     #contents {
         display: block;
     }
+
     #contents section {
         width: 330px;
         margin: 0 auto;
         padding: 20px 10px;
-
     }
+
     .text-contents {
         text-align: justify;
     }
 
     /*ニュース*/
-
     #news {
         padding-left: 5px;
     }
+
     #news-box {
         padding-left: 30px;
     }
+
     /*フッター*/
     footer {
         padding: 5px 0;
     }
+
     .footer-log {
         font-size: 26px;
         padding-left: 15px;
     }
+
     .footer-text {
         padding-left: 15px;
     }
+
     /*テーブル*/
     .table-title {
-        margin-left:15px;
+        margin-left: 15px;
     }
-    tr{
-        display:grid;
-        list-style:square;
+
+    tr {
+        display: grid;
+        list-style: square;
     }
+
     tr:nth-child(2n+1) {
-        background-color:transparent;
+        background-color: transparent;
     }
+
     th {
-        width:100%;
+        width: 100%;
         padding: 10px 15px;
-        background-color:#ccc;
-        
+        background-color: #ccc;
     }
+
     td {
         padding: 10px 5px;
         text-align: justify;
         margin-left: 10px;
         padding-left: 20px;
     }
-    .table-sinsotu,.table-tyuto {
+
+    .table-sinsotu,
+    .table-tyuto {
         margin: 0px;
     }
-    /*お問い合わせ*/
 
+    /*お問い合わせ*/
     .contact {
         margin: 20px 15px;
     }
+
     .contact-list {
         padding: 22px;
         padding-left: 33px;
     }
+
     .contact li {
         font-size: 15px;
     }
 
 }
+
 }
